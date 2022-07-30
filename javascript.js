@@ -27,4 +27,14 @@
          Number("") 은 False Number(' ') (공백)은 true
 
          Boolean() 불린형으로 변환 -> 0,""(문자열), undefined, NaN 모두 False 반환.  */
+        
+         /* let days = ['월','화','수'];
+         for(let index = 0; index < days.length; index ++) {
+          console.log(days[index])
+         } */
+
+         let days = ['월', '화', '수'];
+         for(let day of days) {
+          console.log(day)
+         }
  
